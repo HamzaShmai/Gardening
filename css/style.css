@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
 *{
@@ -454,6 +454,11 @@ input:focus{
 .help{
     width: 74.5%;
     margin: auto;
+    height: 90px;
+}
+#help::placeholder{
+position: relative;
+top: -13px;
 }
 .get-estimate{
     text-decoration: none;
@@ -555,22 +560,25 @@ input:focus{
     padding-top:90px ;
 }
 .right-5{
-    height:98vh;
+    height:86vh;
     width: 447px;
+    border: 2px solid green;
+    position: relative;
     
 }
 .right-5  img{
     padding: 10px;
-        border: 2px solid green;
+        /* border: 2px solid green; */
     height: 100%;
     width: 100%;
     object-fit: fill;
 }
 .right-5-a{
         display: block;
-        height: 87.66%;
+       height: 100%;
     width: 100%;
     background-color: #fcf5f5;
+
 }
 /* Section 5 */
 /* Section 6  */
@@ -676,14 +684,20 @@ align-self: flex-start;
 .test-up{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 40px 0px;
+}
+.test-down{
+text-align: center;
 }
 .test-img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin: 0px 20px;
+}
+.test-name{
+text-align: center;
 }
 .test-img img{
     border-radius: 50%;
@@ -1060,6 +1074,8 @@ border-bottom: 1px solid green;
     border-radius: 10px;
     
 }
+
+
     .search-nav, .cart-nav{
         display: none;
     }
@@ -1171,8 +1187,8 @@ border-bottom: 1px solid green;
         height: 360px;
 }
 /* Section 7 */
-.section-7{
-    height: 72vh;
+.section-7 {
+    height: 55vh;
 }
 .testmonial{
     width: 100%;
@@ -1180,14 +1196,14 @@ border-bottom: 1px solid green;
 .bg-white{
     display: none;
 }
-.test-bg{
-    top: 65%;
+.test-bg {
+    top: 70%;
     right: 0px;
-
+    height: 350px;
 }
-.bottom-7{
-            width: 70%;
-    left: -54px;
+.bottom-7 {
+    width: 60%;
+    left: 10px;
     bottom: -120px;
 }
 .grass-bottom{
@@ -1295,7 +1311,7 @@ footer{
     .section-1 .box-1{
         width: 100%!important;
         margin-bottom: 95px;
-        border: 1px solid green;
+    
         border-radius: 10px;
     }
     .box-bg1{
@@ -1342,7 +1358,7 @@ footer{
 }
 
 /* Section 3 */
-.section-3{
+.section-3 {
   
     /* min-height: 110vh; */
 }
@@ -1378,6 +1394,9 @@ footer{
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+.portfolio-container{
+    text-align: center;
 }
 .right-5{
     width: auto;
@@ -1449,7 +1468,7 @@ z-index: 100;
 .bottom-7{
     
     width: 100%;
-    left: -12px;
+    left: 12px;
     top: 240px;
     text-align: left;
     padding-left: 20px;
