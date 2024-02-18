@@ -1,6 +1,8 @@
 #portfolio {
   position: relative;
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 #portfolio #portfolio-flters {

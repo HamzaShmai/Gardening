@@ -462,10 +462,11 @@ input:focus {
   border-radius: 5px;
   padding: 10px 20px;
   margin: auto;
-  position: relative;
-  left: 45%;
-  top: 33px;
-  margin-top: 10px;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+
+  margin-top: 45px;
 }
 .get-estimate:hover {
   background: #ffff;
@@ -517,7 +518,7 @@ input:focus {
   /* height: 100vh; */
   /* position: relative; */
   padding: 0px 30px;
-  padding-top: 50px;
+  padding-top: 8%;
   padding-bottom: 30px;
 }
 .sec-5-box {
@@ -840,6 +841,8 @@ footer {
   padding: 0;
   display: flex;
   flex-direction: column;
+  gap: 15px;
+  padding-top: 24px;
 }
 .sec-2 ul li a {
   text-decoration: none;
@@ -1011,10 +1014,7 @@ border-bottom: 1px solid green;
   .help {
     width: auto;
   }
-  .get-estimate {
-    left: 41%;
-    top: 16%;
-  }
+ 
   .box-1 {
     width: 50%;
     margin-bottom: 100px;
@@ -1127,9 +1127,7 @@ border-bottom: 1px solid green;
   /* .help {
     width: 53%;
   } */
-  .get-estimate {
-    left: 41%;
-  }
+  
 
   /* Section 4 */
   .section-4 {
@@ -1347,10 +1345,7 @@ border-bottom: 1px solid green;
     height: 30%;
     /* margin: 0px; */
  } 
-  .get-estimate {
-    top: 28%;
-    left: 31%;
-  }
+  
   .form-leaf3 {
     right: 0px;
   }
