@@ -157,7 +157,9 @@ margin-top: 20%;
 } */
 }
 @media(max-width:375px) {
-  
+  .get-estimate{
+margin-top: 25%!important;
+  }
   .right-2{
 margin-top: 0%;
   }
@@ -239,7 +241,7 @@ left: 40%!important;
     max-width: 33%;
   }
   .get-estimate{
-margin-top: 10%;
+margin-top: 10%!important;
   }
 }
 @media only screen and (max-width: 412px) {
