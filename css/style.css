@@ -312,6 +312,7 @@ header {
 .btn.btn-white {
   text-transform: uppercase;
 }
+/* All sections */
 /* section 1 */
 /* section 2  */
 
@@ -518,7 +519,7 @@ input:focus {
   /* height: 100vh; */
   /* position: relative; */
   padding: 0px 30px;
-  padding-top: 8%;
+  padding-top: 4%;
   padding-bottom: 30px;
 }
 .sec-5-box {
