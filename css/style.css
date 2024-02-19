@@ -288,7 +288,7 @@ header {
 }
 .box-bg2 {
   top: -25%;
-  left: 21%;
+   /* left: 21%; */
 }
 .box-up {
   left: 40%;
@@ -990,9 +990,9 @@ border-bottom: 1px solid green;
   .right-5 {
     height: 53vh;
   }
-  .box-bg2 {
+  /* .box-bg2 {
     left: 36%;
-  }
+  } */
   .box-up {
     left: 45%;
   }
@@ -1020,9 +1020,9 @@ border-bottom: 1px solid green;
     width: 50%;
     margin-bottom: 100px;
   }
-  .box-bg2 {
+  /* .box-bg2 {
     left: 33%;
-  }
+  } */
   .box-up {
     left: 44%;
   }
@@ -1298,10 +1298,10 @@ border-bottom: 1px solid green;
   .box-bg1 {
     top: -75px;
   }
-  .box-bg2 {
+  /* .box-bg2 {
     top: -60px;
     left: 100px;
-  }
+  } */
   .box-up {
     left: 160px;
     top: -30px;
