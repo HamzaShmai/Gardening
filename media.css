@@ -6,7 +6,68 @@
     background: rgba(0,0,0,0.8);
 
 }
-@media(max-width: 400px) {
+.beonest {
+  position: relative;
+  z-index: 9999;
+}
+
+@media (max-width: 480px) {
+ .upper-content{
+margin-top: 40%;
+}
+}
+
+/* @media only screen and (max-width: 430px) {
+ 
+  /* .help {
+    width: 90%;
+    height: 20%; */
+   */
+  /* @media(max-width:414px) {
+ 
+    .upper-content{
+ margin-top: 50%;
+    }
+    .section-1 {
+ padding: none;
+    }
+   .section-3 {
+     margin-top: 0%;
+   }
+   .footer-ul {
+     margin-top: 5%;
+   }
+   .box-bg2{
+ top: -17%;
+   }
+ 
+   .outdor {
+     position: relative;
+     width: 10%;
+   }
+   .section-4{
+ padding-top: 15%;
+   }
+   .get-estimate{
+ margin-top: 20%;
+   }
+   .section-7{
+ min-height: 50vh!important;
+   }
+  
+ 
+   } 
+  
+
+
+  @media only screen and (max-width: 412px) {
+    .help {
+      width: 97%;
+      height: 17%;
+    }
+    
+  } */
+/* @media(max-width: 400px) {
   .help {
     width: 212px;
     padding: 20px 10px;
@@ -29,19 +90,69 @@
 
   .right-6 {
     gap: 40px;
-  }
+  } 
 }
 
-@media(max-width: 360px) {
+@media(max-width: 390px) {
+  .paddsection {
+    padding-top: 80%;
+  }
+  /* {
+min-height: 65vh!important;
+  }.section-7 
+}*/
+/* @media(max-width:375px) {
+  .get-estimate{
+margin-top: 25%!important;
+  }
+  .right-2{
+margin-top: 0%;
+  }
+  .box-bg2{
+top: -17%;
+  }
+  .help{
+width: 223px;
+  }
+  .upper-content{
+margin-top: 66%;
+  }
+.view-more{
+left: 31%!important;
+}
+  .ios {
+ 
+    overflow: hidden;
+  }
+
+  .section-4 {
+    padding-top: 45%;
+  }
+  .paddsection{
+    
+      margin-top: -135px;
+  
+  }
+  .section-7{
+min-height: 75vh!important;
+  }
+  /* section-4 */
+  /* .footer-span{
+    margin-bottom: 12px;
+  }
+  .sec-4 h5{
+margin-bottom: 25px;
+  } */ */
+
+
+/* @media(max-width: 360px) {
   .lower-content {
     display: flex;
   }
   .upper-content{
 margin-top: 70%;
   }
-  /* .section-7{
-    min-height: 83vh!important;
-} */
+
   .lower-left p {
     font-size: 12px;
   }
@@ -54,12 +165,10 @@ margin-top: 70%;
   .mail {
     margin-left: 0px;
   }
-  /* .superiorg {
-    position: absolute;
-    right: 38%;
-    z-index: 9999;
-    left: 5%;
-  } */
+  .get-estimate{
+margin-top: 25%;
+  }
+ 
   .about-image {
     margin-top: 15%;
   }
@@ -79,14 +188,9 @@ margin-top: 70%;
   .box-up {
     left: 40%;
   }
-}
-@media only screen and (max-width: 430px) {
- 
-  /* .help {
-    width: 90%;
-    height: 20%; */
-  }
-  
+} */
+
+   
   .ios {
     /* min-width: 46%;
                         min-height: 45%; */
@@ -108,201 +212,20 @@ margin-top: 70%;
   .right-2 {
     margin-top: 10%;
   }
+
+
+
 /* 
-.section-7 {
-  min-height: 58vh;
-} */
-
-@media(max-width:414px) {
- 
-   .upper-content{
-margin-top: 50%;
-   }
-   .section-1 {
-padding: none;
-   }
-  .section-3 {
-    margin-top: 0%;
-  }
-  .footer-ul {
-    margin-top: 5%;
-  }
-  .box-bg2{
-top: -17%;
-  }
-
-  .outdor {
-    position: relative;
-    width: 10%;
-  }
-  .section-4{
-padding-top: 15%;
-  }
-  .get-estimate{
-margin-top: 20%;
-  }
-  .section-7{
-min-height: 50vh!important;
-  }
- 
-
-  /* .superior {
-    position: absolute;
-    right: 1%;
-    left: 43%;
-  }
-  .superiorg {
-    position: absolute;
-    right: 31%;
-    z-index: 9999;
-    left: 5%;
-  } */
-  .beonest {
-    position: relative;
-    z-index: 9999;
-  }
-  /* .section-7{
-    min-height: 60vh;
-} */
-}
-@media(max-width:375px) {
-  .get-estimate{
-margin-top: 25%!important;
-  }
-  .right-2{
-margin-top: 0%;
-  }
-  .box-bg2{
-top: -17%;
-  }
-  .help{
-width: 223px;
-  }
-  .upper-content{
-margin-top: 66%;
-  }
-.view-more{
-left: 31%!important;
-}
-  .ios {
-    /* overflow-inline: hidden; */
-    overflow: hidden;
-  }
-  /* .help {
-    width: 210px;
-  } */
-  .section-4 {
-    padding-top: 45%;
-  }
-  .paddsection{
-    
-      margin-top: -135px;
-  
-  }
-  .section-7{
-min-height: 75vh!important;
-  }
-  /* section-4 */
-  .footer-span{
-    margin-bottom: 12px;
-  }
-  .sec-4 h5{
-margin-bottom: 25px;
-  }
-  /* .superior{
-position: absolute!important;
-left: 20%;
-
-  } */
-}
-@media(max-width: 768px) {
-  /* .superiorg {
-    position: absolute;
-    right: 38%;
-    z-index: 9999;
-    left: 5%;
-  }
-  .superior {
-    position: absolute;
-    right: 3%;
-    left: 43%;
-  } */
-
-.view-more{
-left: 40%!important;
-
-}
-  .ios {
-    opacity: 1;
-  }
-
-  /* .superiorg {
-    position: absolute;
-    right: 39%;
-    z-index: 9999;
-    left: 5%;
-  } */
-  .anime {
-    border: 1px solid green;
-    border-radius: 11px;
-    margin-bottom: 15px;
-  }
- 
-
-  .ios {
-    max-width: 33%;
-  }
-  .get-estimate{
-margin-top: 10%!important;
-  }
-}
-@media only screen and (max-width: 412px) {
-  .help {
-    width: 97%;
-    height: 17%;
-  }
-  
-}
-@media only screen and (max-width: 1024px) {
+ @media only screen and (max-width: 1024px) {
   .anime {
     border: 2px solid green;
     border-radius: 25px;
   }
-  /* .section-7{
-    min-height: 35vh;
-} */
-}
-.superior {
-  position: absolute;
-  right: 22%;
-  left: 34%;
-  z-index: 99999;
-  bottom: 21%;
-}
-.superiorg {
-  position: absolute;
-  right: 50%;
-  z-index: 99999;
-  left: 6%;
-  bottom: 24%;
-}
-  .beonest{
-position: relative;
-z-index: 999999;
-top: 13px;
-  }
+  */
+ 
 
-  /* .help {
-    width: 444px;
-    height: 63px;
-  } */
 
-  /* .bottom-7{
-margin-left: -200px;
-
-    } */
-
-@media(max-width: 820px) {
+/* @media(max-width: 820px) {
    
   .box-1 {
     width: 45%;
@@ -319,39 +242,15 @@ min-height: 35vh!important;
 .right-5{
 width: 100%;
 }
-  /* .superior {
-    position: absolute;
-    right: 3%;
-    left: 43%;
-  }
-  .superiorg {
-    position: absolute;
-    right: 39%;
-    z-index: 9999;
-    left: 5%;
-  } */
+ 
   .inner-left-6 .inner-6-logo,
   .inner-right-6 .inner-6-logo {
     width: 95px;
   }
-  .bottom-7 {
-    position: absolute;
-    left: 5%;
-  }
+ 
 }
-@media (max-width: 480px) {
-  .bottom-7 {
-    left: -12px;
-  }
-}
-@media(max-width: 390px) {
-  .paddsection {
-    padding-top: 80%;
-  }
-  /* {
-min-height: 65vh!important;
-  }.section-7 */
-}
+ */
+
 .ios {
   opacity: 1;
 }
@@ -426,6 +325,28 @@ height: 100%;
 top: 0;
 left: 0;
 }
+.superior {
+  position: absolute;
+  right: 22%;
+  left: 34%;
+  z-index: 99999;
+  bottom: 21%;
+}
+.superiorg {
+  position: absolute;
+  right: 50%;
+  z-index: 99999;
+  left: 6%;
+  bottom: 24%;
+}
+  .beonest{
+position: relative;
+z-index: 999999;
+top: 13px;
+  }
+
+
+  
 .carousel-inner {
   height: 91%;
   width: 100%;
