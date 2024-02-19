@@ -597,6 +597,7 @@ input:focus {
   justify-content: center;
   width: 55%;
   gap: 10px;
+  padding-top: 65px;
 }
 .inner-left-6,
 .inner-right-6 {
@@ -1117,7 +1118,7 @@ border-bottom: 1px solid green;
 
   /* Section 3 */
   .section-3 {
-    height: 70vh;
+    height: 85vh;
   }
   .form-up {
     width: 63%;
