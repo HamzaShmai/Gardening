@@ -11,11 +11,6 @@
   z-index: 9999;
 }
 
-@media (max-width: 480px) {
- .upper-content{
-margin-top: 40%;
-}
-}
 
 /* @media only screen and (max-width: 430px) {
  
@@ -199,9 +194,7 @@ margin-top: 25%;
   /* .box-up {
     left: 43%;
   } */
-  .section-3 {
-    margin-top: 1%;
-  }
+  
   .lower-right {
     left: 0%;
   }

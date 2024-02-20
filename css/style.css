@@ -1255,13 +1255,51 @@ border-bottom: 1px solid green;
   header {
     min-height: 870px;
   }
- 
+  .contForm{
+    position: relative;
+  }
+  .box-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 50%;
+width: 80%;
+justify-content: center;
+  }
+  .upper-part{
+width: 84%;
+border-radius: 45px;
+  }
+  .top-2{
+text-align: center;
+  }
+  .top-3{
+text-align: center;
+  }
+  .contForm::after {
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 90%;
+    top: -5%;
+    left: -5%;
+    background: rgba(0,0,0,0.1);
+    border-radius: 20px;
+    z-index: -1;
+  }
+  .upper-content{
+margin-top: 45%;
+  }
 .mail{
   margin-left: 36px;
 }
 .navbar-ul{
 margin-left: -66px;
 padding-top: 3%;
+}
+.lower-content{
+  position: relative;
+  left: -14%;
 }
   .phone p {
     width: 124px;
@@ -1286,8 +1324,21 @@ padding-top: 3%;
     height: 50%;
     position: absolute;
     bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+  .right-img{
+width: 85%;
+height: auto;
 
+  }
+.form-up{
+width: 100%;
+}
+.form-up input{
+width: 100%;
+}
   .mid-grass {
     display: none;
   }
@@ -1330,8 +1381,19 @@ padding-top: 3%;
   }
    .box-bg2 {
     top: -60px;
-    /* left: 100px; */
+     left: 140px; 
   } 
+  .section-3{
+margin-top: 10%;
+  }
+  .section-5{
+margin-top: 5%;
+
+  }
+  /* .section-4{
+    margin-top: 40%;
+    
+      } */
   .box-up {
     left: 200px;
     top: -30px;
@@ -1349,6 +1411,7 @@ margin-top: 19%!important;
   }
   .right-2 {
     width: 100% !important;
+    margin-top: 15%!important;
   }
   .top-4 {
     position: relative;
@@ -1372,7 +1435,7 @@ margin-top: 19%!important;
 
   /* Section 3 */
   .section-3 {
-    /* min-height: 110vh; */
+     min-height: 127vh; 
   
   /* .help {
     width: 88%;
@@ -1382,6 +1445,7 @@ margin-top: 19%!important;
   
   .form-leaf3 {
     right: 0px;
+    z-index: -99;
   }
   .form-leaf4 {
     top: 360%;
@@ -1413,6 +1477,7 @@ margin-top: 19%!important;
   /* Section 6 */
   .section-6 {
     flex-direction: column;
+    margin-top: 5%;
   }
   .left-6 {
     width: 100% !important;
@@ -1440,7 +1505,8 @@ margin-top: 19%!important;
   }
   /* Section 7 */
   .section-7 {
-    min-height: 50vh;
+  
+    height: 75vh;
   }
   .top-1,
   .top-2 {
