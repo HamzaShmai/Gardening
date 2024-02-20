@@ -1270,7 +1270,7 @@ left: 38%;
 @media (max-width: 480px) {
   /* Header  */
 
-  .header {
+  header {
     min-height: 870px;
   }
   
