@@ -287,8 +287,8 @@ header {
   top: -30%;
 }
 .box-bg2 {
-  top: -28%;
-   /* left: 18%; */
+  top: -26%;
+  left: 22%;
 }
 .box-up {
   left: 40%;
@@ -697,6 +697,9 @@ input:focus {
 .test-name {
   text-align: center;
 }
+.test-name h6{
+font-weight: 900;
+}
 .test-img img {
   border-radius: 50%;
   width: 100%;
@@ -1058,7 +1061,7 @@ border-bottom: 1px solid green;
 }
 @media (max-width: 768px) {
   /* Header   */
-  header {
+  .header {
     height: 70vh;
   }
   .navbar-collapse.collapse {
@@ -1066,6 +1069,11 @@ border-bottom: 1px solid green;
     background: rgb(255, 255, 255);
     top: 61px;
   }
+.box-bg2{
+left: 38%;
+}
+
+
 
   .search:hover {
     border-radius: 10px;
@@ -1079,13 +1087,12 @@ border-bottom: 1px solid green;
         opacity: 1;
       }
     
-    
       .anime {
         border: 1px solid green;
-        border-radius: 11px;
+        border-radius: 63px;
         margin-bottom: 15px;
-      }
-     
+        width: 60%;
+    }
     
       .ios {
         max-width: 33%;
@@ -1126,8 +1133,19 @@ border-bottom: 1px solid green;
   .box-up {
     left: 45%;
   }
+
+    
+  
+
   .box-content {
-    padding-bottom: 30px;
+      margin-top: 136px;
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      width: 80%;
+      height: 50%;
+      padding-bottom: 30px;
+      flex-direction: column;
   }
 
   /* Section 2 */
@@ -1252,7 +1270,7 @@ border-bottom: 1px solid green;
 @media (max-width: 480px) {
   /* Header  */
 
-  header {
+  .header {
     min-height: 870px;
   }
   .contForm{
@@ -1384,12 +1402,17 @@ width: 100%;
      left: 140px; 
   } 
   .section-3{
-margin-top: 10%;
+    padding-top: 15%;
   }
   .section-5{
-margin-top: 5%;
-
+    padding-top: 15%;
   }
+  .section-4{
+    padding-top: 15%;
+  }
+.section-5{
+padding-top: 15%;
+}
   /* .section-4{
     margin-top: 40%;
     
@@ -1404,7 +1427,7 @@ margin-top: 5%;
     min-height: 870px;
   }
   .get-estimate{
-margin-top: 19%!important;
+margin-top: 30%!important;
   }
   .left-2 {
     width: 100% !important;
@@ -1434,14 +1457,14 @@ margin-top: 19%!important;
   }
 
   /* Section 3 */
-  .section-3 {
+  /* .section-3 {
      min-height: 127vh; 
   
   /* .help {
     width: 88%;
     height: 30%;
     /* margin: 0px; */
- } 
+ */
   
   .form-leaf3 {
     right: 0px;
@@ -1477,7 +1500,7 @@ margin-top: 19%!important;
   /* Section 6 */
   .section-6 {
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 15%;
   }
   .left-6 {
     width: 100% !important;
@@ -1506,7 +1529,7 @@ margin-top: 19%!important;
   /* Section 7 */
   .section-7 {
   
-    height: 75vh;
+    height: 50vh;
   }
   .top-1,
   .top-2 {

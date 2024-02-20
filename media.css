@@ -379,3 +379,16 @@ margin-top: 24px;
   text-align: center;
   margin-top: 45px;
 }
+
+.view-more:hover{
+background-color: #fff;
+border-color: green;
+
+}
+
+/* @media(max-width:1280px){
+  .lower-content{
+    position: relative;
+    left: -23%;
+    } 
+} */
