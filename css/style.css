@@ -288,7 +288,7 @@ header {
 }
 .box-bg2 {
   top: -26%;
-  left: 22%;
+  left: 18%;
 }
 .box-up {
   left: 40%;
@@ -446,7 +446,7 @@ input:focus {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
 }
 .help {
-  width: 74.5%;
+  width: 82.5%;
   margin: auto;
   height: 90px;
 }
@@ -558,7 +558,7 @@ input:focus {
   padding-top: 90px;
 }
 .right-5 {
-  height: 86vh;
+  height: 94.5vh;
   width: 447px;
   border: 2px solid green;
   position: relative;
@@ -998,7 +998,7 @@ border-bottom: 1px solid green;
     left: 36%;
   } */
   .box-up {
-    left: 45%;
+    left: 45%!important;
   }
   .section-2 p {
     font-size: 30px;
@@ -1028,7 +1028,7 @@ border-bottom: 1px solid green;
     left: 33%;
   } */
   .box-up {
-    left: 44%;
+    left: 44%!important;
   }
   /* .section-5  */
   .sec-5-box {
@@ -1061,7 +1061,7 @@ border-bottom: 1px solid green;
 }
 @media (max-width: 768px) {
   /* Header   */
-  .header {
+  header {
     height: 70vh;
   }
   .navbar-collapse.collapse {
@@ -1070,7 +1070,7 @@ border-bottom: 1px solid green;
     top: 61px;
   }
 .box-bg2{
-left: 38%;
+left: 38%!important;
 }
 
 
@@ -1131,7 +1131,7 @@ left: 38%;
     left: 38%;
   } */
   .box-up {
-    left: 45%;
+    left: 45%!important;
   }
 
     
@@ -1220,7 +1220,7 @@ left: 38%;
   }
   /* Section 7 */
   .section-7 {
-    height: 55vh;
+    height: 55vh!important;
   }
   .testmonial {
     width: 100%;
@@ -1256,6 +1256,7 @@ left: 38%;
   .sec-4 {
     width: 48%;
     height: auto;
+   
   }
   .sec-3,
   .sec-4 {
@@ -1310,7 +1311,7 @@ text-align: center;
 margin-top: 45%;
   }
 .mail{
-  margin-left: 36px;
+  margin-left: 29%!important;
 }
 .navbar-ul{
 margin-left: -66px;
@@ -1400,16 +1401,16 @@ width: 100%;
   }
    .box-bg2 {
     top: -60px;
-     left: 140px; 
+     left: 140px!important; 
   } 
   .section-3{
-    padding-top: 15%;
+    padding-top: 100%!important;
   }
   .section-5{
     padding-top: 15%;
   }
   .section-4{
-    padding-top: 15%;
+    padding-top: 100%!important;
   }
 .section-5{
 padding-top: 15%;
@@ -1419,8 +1420,8 @@ padding-top: 15%;
     
       } */
   .box-up {
-    left: 200px;
-    top: -30px;
+    left: 200px!important;
+    top: -30px!important;
   }
   /* Section 2 */
   .section-2 {
@@ -1530,7 +1531,7 @@ margin-top: 30%!important;
   /* Section 7 */
   .section-7 {
   
-    height: 88vh;
+    height: 88vh!important;
   }
   .top-1,
   .top-2 {
@@ -1624,7 +1625,43 @@ margin-top: 30%!important;
   }
 }
 
+@media(max-width:375px){
+.lower-content{
+left: -1%!important;
+}
+.box-bg2{
+left: 24%!important;
+}
+.box-up{
+left: 41%!important;
+}
+.upper-content{
+margin-top: 80%!important;
+}
+.mail{
+margin-left: 0px!important;
+}
+}
+@media(max-width:414px){
 
-
-
-
+  .section-4{
+padding-top:75%!important;
+  }
+.box-bg2{
+left: 27%!important;
+}
+.box-up{
+left: 42%!important;
+}
+}
+@media (max-width:360px){
+.lower-content{
+display: flex;
+}
+.lower-content a{
+padding: 7px;
+}
+.section-7{
+  height: 67vh!important;
+}
+}
