@@ -446,7 +446,7 @@ input:focus {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
 }
 .help {
-  width: 82.5%;
+  width: 74.5%;
   margin: auto;
   height: 90px;
 }
@@ -558,7 +558,7 @@ input:focus {
   padding-top: 90px;
 }
 .right-5 {
-  height: 94.5vh;
+  height: 86vh;
   width: 447px;
   border: 2px solid green;
   position: relative;
@@ -1064,6 +1064,10 @@ border-bottom: 1px solid green;
   header {
     height: 70vh;
   }
+  .top-4{
+position: relative;
+left: -35%;
+  }
   .navbar-collapse.collapse {
     left: 0px;
     background: rgb(255, 255, 255);
@@ -1151,6 +1155,7 @@ left: 38%!important;
   /* Section 2 */
   .section-2 {
     height: auto;
+    padding: 0px 3rem;
   }
 
   .about-image-bg {
@@ -1221,7 +1226,7 @@ left: 38%!important;
   }
   /* Section 7 */
   .section-7 {
-    height: 96vh!important;
+    height: 56vh!important;
   }
   .testmonial {
     width: 100%;
