@@ -1010,23 +1010,23 @@ border-bottom: 1px solid green;
 }
 @media (max-width: 1050px) {
   header {
-    height: 50vh;
+    height: 113vh;
   }
-  .section-2,
+  /* .section-2,
   .section-3 {
     height: 55vh;
-  }
+  } */
   .help {
-    width: auto;
+    width: 91%;
   }
  
   .box-1 {
     width: 50%;
     margin-bottom: 100px;
   }
-  /* .box-bg2 {
+   .box-bg2 {
     left: 33%;
-  } */
+  } 
   .box-up {
     left: 44%!important;
   }
@@ -1050,7 +1050,7 @@ border-bottom: 1px solid green;
     right: 0;
   }
   .right-6 {
-    height: 40vh;
+    height: 97vh;
   }
   .footer-upper {
     gap: 20px;
@@ -1160,6 +1160,7 @@ left: 38%!important;
   /* Section 3 */
   .section-3 {
     height: 85vh;
+    padding: 0px 0px;
   }
   .form-up {
     width: 63%;
@@ -1220,7 +1221,7 @@ left: 38%!important;
   }
   /* Section 7 */
   .section-7 {
-    height: 55vh!important;
+    height: 96vh!important;
   }
   .testmonial {
     width: 100%;
