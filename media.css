@@ -218,7 +218,7 @@ margin-top: 7rem;
     height: 55vh;
   } */
   .help {
-    width: 98%!important;
+    width: 98%;
   }
   .upper-part{
 border: 1px solid;
@@ -284,6 +284,12 @@ height: 25vh;
   header {
     height: 70vh;
   }
+  .inner-left-6{
+height: 46vw;
+  }
+  .figure{
+margin-top: 4rem;
+  }
   .script{
 display: flex;
 
@@ -293,6 +299,8 @@ flex-direction: column;
 display: flex;
 justify-content: center;
   }
+
+  
   .about-image{
 width: 75%;
 text-align: center;
@@ -411,9 +419,7 @@ left: -35%;
   
 
   /* Section 4 */
-  .section-4 {
-    padding-top: 0px;
-  }
+
   /* .section-5  */
   .sec-5-box {
     flex-direction: column;
@@ -515,7 +521,7 @@ left: -35%;
 width: 100%;
   }
   .help{
-width: 67% !important; ;
+width: 67%  ;
   }
 }
 @media (min-width: 768px)
@@ -532,6 +538,14 @@ width: 67% !important; ;
 
   .box-bg2{
 left: 30%!important;
+top: -4rem;
+  }
+  .pose{
+margin-top: 42px;
+  }
+  .figure{
+display:flex;
+justify-content: center;
   }
   body > div > section.boxes > div > div > div:nth-child(1) { 
     display:flex;
@@ -670,18 +684,18 @@ width: 100%;
   .box-bg1 {
     top: -75px;
   }
-   /* .box-bg2 {
-    top: -60px;
-     left: 140px!important; 
-  }  */
+  .box-up {
+    left: 123px;
+    top: -27px;
+}
   .section-3{
-    padding-top: 100%!important;
+    padding-top: 30%!important;
   }
   .section-5{
     padding-top: 15%;
   }
   .section-4{
-    padding-top: 100%!important;
+    padding-top: 24%!important;
   }
 .section-5{
 padding-top: 15%;
@@ -690,10 +704,11 @@ padding-top: 15%;
     margin-top: 40%;
     
       } */
-  .box-up {
-    left: 200px!important;
-    top: -30px!important;
-  }
+      .box-up {
+        left: 163px!important;
+        top: -52px!important;
+    }
+  
   /* Section 2 */
   .section-2 {
     flex-direction: column;
@@ -824,7 +839,7 @@ margin-top: 30%!important;
     max-height: 200px;
 
     right: 0%;
-    top: 97%;
+    top: 97%!important;
   }
   .test-bg img {
     object-fit: contain;
@@ -835,7 +850,7 @@ margin-top: 30%!important;
   }
   .bottom-7 {
     width: 95%;
-    left: -3%;
+    left: -27px!important;
     top: 240px;
     text-align: left;
     padding-left: 20px;
