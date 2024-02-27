@@ -2,6 +2,9 @@
   .upper-content{
 padding: 0px;
   }
+  .social-links{
+opacity: 0;
+  }
   .learn-more{
     
     padding: 10px 12px;
@@ -73,6 +76,7 @@ margin: 0;
 }
 .right-5{
 width: 100%;
+height: auto;
 }
 .right-6{
 display: flex;
@@ -129,13 +133,37 @@ width: 100%;
 .mana{
 width: 100%;
 }
+.right{
+width: 75%;
+    bottom: 42%;
+}
+.left-grass {
+  bottom: -27%;
+}
+.mid-grass {
+  right: 29%;
+  bottom: -28%;
+}
+.grass{
+  bottom: -33%;
+}
+.boxes{
+margin-top: 8rem;
+}
+.right-grass{
+  bottom: -27%;
+  width: 180px;
+}
   
 }
-@media (min-width:767px) and  (max-width:992px){
+@media (min-width:768px) and  (max-width:992px){
 .service-card{
       display: flex;
       justify-content: center;
   }
+  .social-links{
+    opacity: 1;
+      }
   .anime{
 border: 1px solid;
 border-radius: 15px;
