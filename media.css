@@ -3,6 +3,9 @@
 padding: 0px;
 margin-left: -3vw;
   }
+  .sec-1{
+margin-left: 18px;
+  }
   .bottom-7{
 left: -32px;
 
@@ -239,7 +242,7 @@ bottom: -10%;
 height: auto;
 }
 .test-bg{
-top: 82px;
+top: 52%;
 right: -53px;
 height: 400px;
 }
@@ -259,9 +262,9 @@ height: 102vh;
 width: 51%;
 }
 #help{
-width: 80.5%;
+width: 82.5%;
 }
 .test-bg{
-top: -50px;
+top: 100px;
 }
 }

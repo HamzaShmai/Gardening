@@ -959,8 +959,7 @@ position: relative;
   .grass-bottom {
     z-index: -2;
     bottom: -190px;
-  
-    /* left: -74px; */
+     left: 0px; 
     width: 100%;
   
     position: absolute;
