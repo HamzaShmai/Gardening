@@ -180,7 +180,7 @@ margin-top: 24px;
   padding: 10px 20px;
   margin: auto;
   text-align: center;
-  margin-top: 45px;
+  margin-top: 15px;
 }
 
 .view-more:hover{
@@ -278,6 +278,7 @@ li {
   .phone {
     z-index: 100;
     cursor: pointer;
+    margin-left: 1.1vw;
   }
   .mail {
     cursor: pointer;
@@ -447,6 +448,7 @@ color: #ffffff;
     top: 131px;
     right: 44%;
     z-index: -10;
+    
   }
   .left-grass {
     width: 21%;
@@ -633,6 +635,7 @@ text-align: center;
   }
   .btn.btn-white:hover{
 border: 1px solid black;
+
   }
   /* section-3 */
   .form-up {
@@ -659,6 +662,7 @@ border: 1px solid black;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
   }
   .help {
+    /* max-width: 75%; */
     width: 80%;
     margin: auto;
     height: 90px;
@@ -880,7 +884,7 @@ position: relative;
   /* Section 6  */
   /* section-7 */
   .testmonial {
-    width: 50%;
+    width: 100%;
   }
   .test-up {
     display: flex;
@@ -918,7 +922,7 @@ position: relative;
     text-align: center;
     font-weight: 700;
     position: absolute;
-    left: 222px;
+   
     bottom: -171px;
   }
   .bottom-7 h4 {
