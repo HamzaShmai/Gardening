@@ -606,10 +606,14 @@ text-align: center;
   }
   .box-bg1 {
     top: -30%;
+    transition: 0.3s ease-in;
   }
   .box-bg2 {
     top: -26%;
 
+  }
+  .box-bg1:hover{
+rotate: 20deg;
   }
   .box-up {
 
@@ -802,7 +806,8 @@ position: relative;
     width: 100%;
   }
   .right-6 {
-    /* height: 100vh; */
+     height: 100vh;
+     max-height: 700px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1277,6 +1282,9 @@ margin-top:5rem ;
 .about-uss{
 margin-top: 7rem;
 }
-.gemni{
-
+ 
+.sec-2 ul li a:hover{
+  color: #008000;
+  transition: 0.2s all;
+ 
 }
