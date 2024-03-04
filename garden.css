@@ -28,6 +28,7 @@ align-items: center;
 }
 #carouselExampleControls{
   overflow: hidden;
+  bottom: -4rem;
 }
    
   .ios {
@@ -58,7 +59,7 @@ align-items: center;
 }
 
 .run {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 30px;
   z-index: 999;
   position: relative;
@@ -535,7 +536,7 @@ color: #ffffff;
   }
   .top-2 h1 {
     text-align: center;
-    font-weight: bolder;
+    font-weight: 800;
     margin-bottom: 20px;
     font-family: "Open Sans", sans-serif;
   }
@@ -618,14 +619,15 @@ text-align: center;
   }
   .box-bg1 {
     top: -30%;
-    transition: 0.3s ease-in;
+    transition: 0.3s ease-in-out;
   }
   .box-bg2 {
     top: -26%;
 
   }
   .box-bg1:hover{
-rotate: 20deg;
+rotate: 45deg;
+
   }
   .box-up {
 
@@ -963,7 +965,7 @@ box-shadow: 0 3px 8px rgba(80, 78, 78, 0.5);
     text-transform: uppercase;
   }
   .bottom-7 p {
-    font-size: 11px;
+    font-size: 12.5px;
     font-weight: 600;
     width: 50%;
   }
@@ -983,7 +985,7 @@ box-shadow: 0 3px 8px rgba(80, 78, 78, 0.5);
     z-index: 10;
     right: 0;
     height: 490px;
-    top: -40px;
+    top: 7rem;
   }
   .test-bg img {
     width: 100%;
@@ -1317,4 +1319,15 @@ margin-top: 7rem;
   color: #008000;
   transition: 0.2s all;
  
+}
+.caps{
+margin-bottom: 10rem;
+}
+.shop-leaf1 {
+  bottom: 53px;
+  position: absolute;
+  right: -32%;
+}
+.leaf1{
+width: 42%;
 }

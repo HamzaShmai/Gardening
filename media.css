@@ -14,6 +14,14 @@ flex-direction: column;
 padding: 0px;
 margin-left: -3vw;
   }
+  #carouselExampleControls {
+    bottom: 0rem;
+  }
+  .offsets {
+    font-size: 14px;
+    margin-left: -0.5rem;
+}
+
   .mega{
     flex-direction: column;
       }
@@ -67,8 +75,8 @@ height: auto;
       justify-content: center;
   }
   .inner-mid {
-    width: 100%;
-  }
+    width: 90%;
+}
   .anime{
 border: 1px solid;
 border-radius: 15px;
@@ -132,7 +140,7 @@ z-index: 9999;
 margin-top: 2rem;
 }
 .run{
-font-size: 25px;
+font-size: 20px;
 }
 .footer-email{
   width: 100%;
@@ -150,6 +158,9 @@ margin-top: 30%;
     top: 89%;
     right: -21px;
     height: 200px;
+}
+#carouselExampleControls {
+  bottom: -1rem;
 }
 
   .tera{
@@ -250,7 +261,7 @@ height: 100%;
 object-fit: contain;
 }
 #help{
-width: 67%;
+width: 72%;
 }
 .right-5{
 width: 100%;
@@ -263,7 +274,7 @@ flex-direction: column;
 bottom: -9%;
 }
 .grass{
-bottom: -15%;
+bottom: -13%;
 }
 .mid-grass {
   bottom: -10%;
@@ -278,7 +289,7 @@ bottom: -10%;
 height: auto;
 }
 .test-bg {
-  top: 48%;
+  top: 64%;
   right: -28px;
   height: 350px;
 }
@@ -289,6 +300,9 @@ margin-bottom: 15px;
 .mana{
 width: 100%;
 }
+#carouselExampleControls {
+  bottom: 0rem;
+}
 }
 @media (min-width:992px) and (max-width:1200px) {
 /* .right-5 {
@@ -296,6 +310,9 @@ height: 102vh;
 } */
 .form-up{
 width: 51%;
+}
+#carouselExampleControls {
+  bottom: 0rem;
 }
 .grass{
 bottom: 11%;
@@ -312,7 +329,7 @@ bottom: 18%;
   right: 19%;
 }
 #help{
-width: 82.5%;
+width: 98.5%;
 }
 
 .right-5{
