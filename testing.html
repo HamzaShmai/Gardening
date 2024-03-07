@@ -292,7 +292,30 @@ justify-content: space-between;
   </head>
 
   <body>
- 
+   
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Image Rotation Animation</title>
+      <style>
+        @keyframes rotateAnimation {
+          0% { transform: rotate(0deg); }
+          10% { transform: rotate(180deg); }
+        }
+        
+    
+        .rotate-image {
+          width: 200px; /* Set your desired width */
+          height: 200px; /* Set your desired height */
+          background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+          background-size: cover;
+          animation: rotateAnimation 5s linear infinite; /* Adjust duration as needed */
+        }
+      </style>
+   
+      <div class="rotate-image">
+        <img src="./images/leaf1.png" alt="" width="100%" height="100%">
+      </div>
+   
      <section class="boxes">
         <div class="container">
           <div class="row">
