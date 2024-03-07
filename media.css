@@ -14,6 +14,19 @@ flex-direction: column;
 padding: 0px;
 margin-left: -3vw;
   }
+  .form-right{
+right: 10%;
+top: 85px;
+  }
+  .gotopbtn {
+    right:28px;
+  }
+  .navbar-brand{
+    margin-left: 0rem;
+    }
+    .mega{
+margin-left: 0rem;
+    }
   #carouselExampleControls {
     bottom: 0rem;
   }
@@ -32,7 +45,7 @@ margin-left: -3vw;
 margin-left: 18px;
   }
   .bottom-7{
-left: -32px;
+left: -8px;
 
   }
   .caps{
@@ -154,6 +167,12 @@ margin-top: 30%;
 }  */
 }
 @media (min-width:600px) and  (max-width:768px){
+  .form-right {
+    z-index: -10;
+    right: 25px;
+    top: -62px;
+    width: 270px;
+}
   .test-bg {
     top: 89%;
     right: -21px;
@@ -261,7 +280,7 @@ height: 100%;
 object-fit: contain;
 }
 #help{
-width: 72%;
+width: 83%;
 }
 .right-5{
 width: 100%;
@@ -311,9 +330,9 @@ height: 102vh;
 .form-up{
 width: 51%;
 }
-#carouselExampleControls {
+/* #carouselExampleControls {
   bottom: 0rem;
-}
+} */
 .grass{
 bottom: 11%;
 }
@@ -329,7 +348,7 @@ bottom: 18%;
   right: 19%;
 }
 #help{
-width: 98.5%;
+width: 84.5%;
 }
 
 .right-5{

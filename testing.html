@@ -250,12 +250,50 @@ justify-content: space-between;
           height: 50%;
         }
       }
+      
+      /* .animation-box{
+        height: 100%;
+        width: 100%;
+     display: block;
+        border-radius: 15px;
+        transform: scaleX(1) scaleY(1) translateX(10px) translateY(10px) rotate(0deg);
+        position: absolute;
+        top: 0%;
+      }
+        .animation-box:hover {
+    transform: scaleX(1) scaleY(1) translateX(0px) translateY(0px) rotate(-30deg);
+    background-color: aqua;
+    position: relative;
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}   */
+.form-images{
+  z-index: -10;
+  left: -78px;
+  top: -135px;
+    width: 300px;
+}
+.form-flower{
+  z-index: -10;
+  left: -84px;
+  top: -115px;
+    width: 300px;
+}
+.form-right {
+    z-index: -10;
+    right: -76px;
+    top: -115px;
+    width: 270px;
+}
+      
     </style>
   </head>
 
   <body>
  
-    <!-- <section class="boxes">
+     <section class="boxes">
         <div class="container">
           <div class="row">
             <div class="col-xl-3  col-sm-12 col-md-6 service-card">
@@ -334,12 +372,16 @@ justify-content: space-between;
           <div
           class="upper-part anime d-flex align-items-center justify-content-center flex-column"
         >
+        <div class="animation-box">
           <span class="box-bg1 box-bg">
             <img src="./images/box-bg.png" alt="" />
           </span>
-          <span class="box-bg2 box-bg">
-            <img src="./images/box-1.png" alt="" />
-          </span>
+         
+            <span class="box-bg2 box-bg">
+              <img src="./images/box-1.png" alt="" />
+            </span>
+          </div>
+        
           <span class="box-up box-bg">
             <img src="./images/recycle.png" alt="" />
           </span>
@@ -355,7 +397,7 @@ justify-content: space-between;
         </div>
         </div>
         </div>
-        </section> -->
+        </section>
         <section class="gemni">
           <div class="container upp">
             <div class="row align-items-start h-100 w-100">
@@ -456,6 +498,114 @@ justify-content: space-between;
             </div>
             </div>
           
+        </section>
+        <section class="example-form">
+          <div class="container h-100 w-100">
+            <div class="row">
+              <div class="top-1">
+                <span></span>
+                <img src="./images/logo-icon.png" alt="" />
+                <span></span>
+              </div>
+              <div class="top-2 d-flex justify-content-center align-items-center">
+                <h1>Get instant <span>Quote</span></h1>
+              </div>
+              <div class="container position-relative">
+                <form class="contForm" action="">
+                  <div class="container ">
+                    <div class="form-up">
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        class="form-input"
+                        required
+                        placeholder="Full Name"
+                        data-aos="fade-right"
+                        data-aos-delay="300"
+                      />
+                      <input
+                        type="number"
+                        name=""
+                        id="name"
+                        class="form-input"
+                        required
+                        placeholder="Phone No."
+                        data-aos="fade-left"
+                        data-aos-delay="300"
+                      />
+                      <input
+                        type="email"
+                        name=""
+                        id="name"
+                        class="form-input"
+                        required
+                        placeholder="Email"
+                        data-aos="fade-right"
+                        data-aos-delay="400"
+                      />
+                      <input
+                        type="text"
+                        name=""
+                        id="name"
+                        class="form-input"
+                        required
+                        placeholder="Service Required"
+                        data-aos="fade-left"
+                        data-aos-delay="400"
+                      />
+                      <input
+                        type="number"
+                        name=""
+                        id="name"
+                        class="form-input"
+                        required
+                        placeholder="Lawn Area (Sq Ft)"
+                        data-aos="fade-right"
+                        data-aos-delay="500"
+                      />
+                      <input
+                        type="number"
+                        name=""
+                        id="name"
+                        class="form-input"
+                        required
+                        placeholder="$0.00"
+                        data-aos="fade-left"
+                        data-aos-delay="500"
+                      />
+                      <input
+                        type="text"
+                        class="help config"
+                        name=""
+                        id="help"
+                        placeholder="How can we help?"
+                        data-aos="fade-up"
+                        data-aos-delay="600"
+                      />
+                    </div>
+                  </div>
+  
+                  <div class="bytn">
+                    <a href="" class="get-estimate" data-aos="zoom-in" data-aos-delay="400"
+            >GET ESTMATE</a
+          >
+                  </div>
+                </form>
+                <span class="about-svgs form-images">
+                  <img src="./images/mid.png" alt="">
+                </span>
+                  <img src="./images/" alt="">
+                </span >
+                <span class="about-svgs form-flower">
+                  <img src="./images/right-leaf.png" alt="">
+                </span>
+                <span class="about-svgs form-right">
+                  <img src="./images/right.png" alt="">
+                </span>
+              </div>
+            </div>
+          </div>
         </section>
   </body>
   <script
