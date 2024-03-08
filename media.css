@@ -14,6 +14,9 @@ flex-direction: column;
 padding: 0px;
 margin-left: -3vw;
   }
+  .details01{
+width: 26%;
+  }
   .sec-3{
 margin-left: 18px;
   }
@@ -56,8 +59,7 @@ left: -8px;
 
   }
   .caps{
-margin-bottom: 45px;
-
+margin-bottom: 85px;
   }
   .bytn{
 margin-top: 5rem;
@@ -162,6 +164,9 @@ margin-top: 2rem;
 .run{
 font-size: 20px;
 }
+.run span{
+font-size: 20px;
+}
 .footer-email{
   width: 100%;
 }
@@ -258,6 +263,7 @@ width: 100%;
     }
   .sec-4{
 margin-bottom: 20px;
+margin-left: -1.5rem;
   }
   .opaque{
     height: auto!important;
